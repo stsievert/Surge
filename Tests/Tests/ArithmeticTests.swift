@@ -1,4 +1,4 @@
-// ExponentialTests.swift
+// ArithmeticTests.swift
 //
 // Copyright (c) 2014–2015 Mattt Thompson (http://mattt.me)
 //
@@ -24,16 +24,11 @@ import Foundation
 import Surge
 import XCTest
 
-class ExponentialTests: XCTestCase {
-    let n = 10000
+class ArithmeticTests: XCTestCase {
+    let n = 100000
 
-    func test_exp() {
-        let values = (0...n).map{_ in Double(arc4random_uniform(10))}
-        measureAndValidateMappedFunctionWithAccuracy(values, member: exp, mapped: exp, accuracy: 0.0001)
-    }
-
-    func test_exp2() {
-        let values = (0...n).map{_ in Double(arc4random_uniform(10))}
-        measureAndValidateMappedFunctionWithAccuracy(values, member: exp2, mapped: exp2, accuracy: 0.0001)
+    func test_sqrt() {
+        let values = (0...n).map{_ in Double(arc4random())}
+        measureAndValidateMappedFunctionWithAccuracy(source: values, member: sqrt, mapped: sqrt, accuracy: 0.0001)
     }
 }
