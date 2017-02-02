@@ -11,6 +11,8 @@
 		B897D7451C7053AF00989C26 /* PowerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B897D7441C7053AF00989C26 /* PowerTests.swift */; };
 		D26964ED1C646AD800F456D4 /* Convolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26964EC1C646AD800F456D4 /* Convolution.swift */; };
 		D26964F01C646C8D00F456D4 /* ConvolutionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26964EE1C646C8800F456D4 /* ConvolutionTests.swift */; };
+		D2821F7B1E42D7A700A3C32D /* Initialize.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2821F7A1E42D7A700A3C32D /* Initialize.swift */; };
+		D2821F801E42DC1500A3C32D /* InitializationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2821F7F1E42DC1500A3C32D /* InitializationTests.swift */; };
 		E65C5BE419FF9CF600149FF1 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65C5BE319FF9CF600149FF1 /* Matrix.swift */; };
 		F8A1E1CB19917B0A009735E2 /* Arithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A1E1C419917B0A009735E2 /* Arithmetic.swift */; };
 		F8A1E1CC19917B0A009735E2 /* Auxiliary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A1E1C519917B0A009735E2 /* Auxiliary.swift */; };
@@ -44,6 +46,8 @@
 		B897D7441C7053AF00989C26 /* PowerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerTests.swift; sourceTree = "<group>"; };
 		D26964EC1C646AD800F456D4 /* Convolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Convolution.swift; sourceTree = "<group>"; };
 		D26964EE1C646C8800F456D4 /* ConvolutionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvolutionTests.swift; sourceTree = "<group>"; };
+		D2821F7A1E42D7A700A3C32D /* Initialize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Initialize.swift; sourceTree = "<group>"; };
+		D2821F7F1E42DC1500A3C32D /* InitializationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitializationTests.swift; sourceTree = "<group>"; };
 		E65C5BE319FF9CF600149FF1 /* Matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
 		F84A6AAE19A9A72F007B53E1 /* SurgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F84A6AB119A9A72F007B53E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -91,6 +95,7 @@
 		F84A6AAF19A9A72F007B53E1 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				D2821F7F1E42DC1500A3C32D /* InitializationTests.swift */,
 				B897D7421C70507F00989C26 /* MatrixTests.swift */,
 				B897D7441C7053AF00989C26 /* PowerTests.swift */,
 				F8BD5C531A6C1C6500DD357E /* ArithmeticTests.swift */,
@@ -164,6 +169,7 @@
 				E65C5BE319FF9CF600149FF1 /* Matrix.swift */,
 				F8A1E1C819917B0A009735E2 /* Power.swift */,
 				F8A1E1CA19917B0A009735E2 /* Trigonometric.swift */,
+				D2821F7A1E42D7A700A3C32D /* Initialize.swift */,
 			);
 			path = Source;
 			sourceTree = SOURCE_ROOT;
@@ -291,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8BD5C5C1A6C1C6500DD357E /* HyperbolicTests.swift in Sources */,
+				D2821F801E42DC1500A3C32D /* InitializationTests.swift in Sources */,
 				B897D7451C7053AF00989C26 /* PowerTests.swift in Sources */,
 				F8BD5C5D1A6C1C6500DD357E /* TrigonometricTests.swift in Sources */,
 				F8BD5C5E1A6C1C6500DD357E /* XCTestCase+Surge.swift in Sources */,
@@ -310,6 +317,7 @@
 				F8A1E1CC19917B0A009735E2 /* Auxiliary.swift in Sources */,
 				F8A1E1CF19917B0A009735E2 /* Power.swift in Sources */,
 				E65C5BE419FF9CF600149FF1 /* Matrix.swift in Sources */,
+				D2821F7B1E42D7A700A3C32D /* Initialize.swift in Sources */,
 				F8AE90FE19D1D9120078C7B2 /* FFT.swift in Sources */,
 				F8A1E1CD19917B0A009735E2 /* Exponential.swift in Sources */,
 				F8A1E1CB19917B0A009735E2 /* Arithmetic.swift in Sources */,
